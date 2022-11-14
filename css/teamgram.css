@@ -743,30 +743,26 @@ img.tl_main_logo {
 }
 
 .icon-android,
-.icon-ios,
-.icon-wp {
+.icon-ios {
   display: inline-block;
   vertical-align: text-top;
   width: 25px;
-  height: 30px;
-  background: url(../img/SiteLogos.png) 0 0 no-repeat;
+  height: 27px;
+  background: 0 0 no-repeat;
   margin-right: 10px;
+  margin-top: -6px;
+}
+.lang_rtl .icon-android,
+.lang_rtl .icon-ios {
+  margin-right: 0;
+  margin-left: 10px;
 }
 
 .icon-ios {
-  background-position: 0 0px;
-  height: 26px;
-  margin-top: -5px;
+  background-image: url(../img/SiteIconApple.svg);
 }
 .icon-android {
-  background-position: 0 -46px;
-  height: 23px;
-  margin-top: -3px;
-}
-.icon-wp {
-  background-position: 0 -90px;
-  height: 20px;
-  margin-top: -1px;
+  background-image: url(../img/SiteIconAndroid.svg);
 }
 
 .icon {
@@ -781,6 +777,39 @@ img.tl_main_logo {
 }
 a:hover .icon-twitter {
   opacity: 0.99;
+}
+
+.app-icon {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 7px;
+  vertical-align: -9px;
+  background: no-repeat left;
+  background-size: cover;
+}
+.is_rtl .app-icon {
+  margin-right: 0;
+  margin-left: 7px;
+}
+.app-icon-android {
+  background-image: url(/img/app_icon_android.svg);
+}
+.app-icon-ios {
+  background-image: url(/img/app_icon_ios.svg);
+}
+.app-icon-macos {
+  background-image: url(/img/app_icon_macos.svg);
+}
+.app-icon-desktop {
+  background-image: url(/img/app_icon_desktop.svg);
+}
+.app-icon-webk {
+  background-image: url(/img/app_icon_webk.svg);
+}
+.app-icon-webz {
+  background-image: url(/img/app_icon_webz.svg);
 }
 
 .tl_main_cards {
