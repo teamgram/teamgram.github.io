@@ -1,0 +1,15 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "org.chatengine.messenger.beta",
+      "sha256_cert_fingerprints": [
+        "A0:8D:7D:C3:23:DD:F7:1E:F3:20:19:44:39:7E:0D:3C:CE:7D:40:84:72:63:E1:1F:32:8B:68:BB:E1:92:29:AB"
+      ]
+    }
+  }
+]
